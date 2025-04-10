@@ -3,10 +3,10 @@
 To set the project up:
 
 Environment:
-php version 8.4.1
-redis-server version 6.0.16
+* php version 8.4.1
+* redis-server version 6.0.16
 
-```bash
+```sh
 git clone git@github.com:notteddydev/tech-test-atarim.git /path/to/project
 cd /path/to/project
 composer install
@@ -17,7 +17,6 @@ php artisan migrate
 php artisan serve
 ```
 
----
 ---
 
 To use this service, please register as a user to obtain your bearer token, and then use that bearer token to authorize your requests so that you can shorten URLs. Information on the endpoints is below.
